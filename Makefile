@@ -1,6 +1,6 @@
 all: myls
 
-mycp: main.o 
+myls: main.o 
 	gcc -g main.o -o myls
 
 main.o: main.c
